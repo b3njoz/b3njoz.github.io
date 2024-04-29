@@ -7,15 +7,22 @@ body {
     background-color: gray;
 }
 
+#pc{
+    height: 80px;
+    object-fit: cover;
+}
+
 #encabezado{
+    display: flex;
     width: 100%;
     color: white;
-    text-align: center;
     background-color: darkslategrey;
 }
 
-.enc_text{
-    float: lef;
+#enc_text{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+    padding-top: 20px;
 }
 
 nav ul{
@@ -39,14 +46,16 @@ nav li:hover {
     background-color: darkcyan;
 }
 
-img{
+
+
+#ben{
     display: inline;
     margin-left: 20px;
     margin-right: 20px;
     float: right;
     height: 380px;
     width: 240px;
-    border-radius: 10px;
+    border-radius: 20px;
     object-fit: cover;
 }
 
