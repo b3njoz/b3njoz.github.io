@@ -38,6 +38,11 @@ nav a{
     padding: 20px;
 }
 
+nav a:active{
+    color: brown;
+}
+
+
 nav li:hover {
     background-color: darkcyan;
 }
@@ -75,14 +80,20 @@ span{
 }
 
 #estudios{
-    padding-top: 20px;
-    margin-left: 20%;
+    border-style: double;
+    margin-left: 15%;
     margin-right: 40%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     text-align: justify;
     color: white;
     justify-content: center;
+}
+
+#estudios li{
+    list-style-position: inside;
+    padding: 5px;
+    padding-left: 20px;
 }
 
 footer{
@@ -95,4 +106,23 @@ footer{
     height: 40px;
     color: white;
 }
+
+
+
+footer a:visited{
+    color: darkseagreen;
+}
+
+footer a:link{
+    color: brown;
+}
+
+footer a:hover{
+    color: aqua;
+}
+
+footer a:active{
+    color: green;
+}
+
 
