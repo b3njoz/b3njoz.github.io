@@ -1,0 +1,36 @@
+.linea{
+    position: absolute;
+    height: 100%;
+    width: 250px;
+    background-color: cadetblue;
+    display: flex;
+}
+
+
+#Portfolio{
+    position: relative;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: darkslategrey;
+}
+
+#boton {
+    position: relative;
+    height: 50px;
+    width: 100px;
+    left: 50px;
+    margin: 20px;
+}
+
+img{
+    padding-right: 100px;
+    float: right;
+    height: 480px;
+    width: 340px;
+}
+
+#presentacion{
+    justify-content: center;
+    padding-left: 300px;
+}
