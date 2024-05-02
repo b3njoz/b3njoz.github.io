@@ -59,6 +59,7 @@ nav li:hover {
 
 #info{
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #presentacion{
@@ -79,6 +80,11 @@ span{
     color: cyan;
 }
 
+#contenedor2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 #estudios{
     border-style: double;
     margin-left: 15%;
@@ -96,18 +102,50 @@ span{
     padding-left: 20px;
 }
 
+#lista{
+    padding-bottom: 100px;
+}
+
+#vehiculos{
+    position: relative;
+    border-style: double;
+    margin-left: 15%;
+    margin-right: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    justify-content: center;
+}
+
+
+#fitito{
+    left: 65%;
+    display: inline;
+    position: absolute;
+    height: 280px;
+    width: 440px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#vehiculos li{
+
+    list-style-position: inside;
+    padding: 5px;
+    padding-left: 20px;
+}
+
 footer{
     padding-top: 20px;
     text-align: center;
     background-color: black;
     position: absolute;
-    bottom: 0;
     width: 100%;
     height: 40px;
     color: white;
+    margin-bottom: 0px;
 }
-
-
 
 footer a:visited{
     color: darkseagreen;
